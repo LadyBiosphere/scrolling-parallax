@@ -1,7 +1,18 @@
+body{
+	background-color: #0C0E0D;
+	color: #F1EDDC;
+	margin: 0;
+	padding: 0;
+	font-family: 'Lora', serif;
+}
 h1, h2{
 	font-family: 'Germania One', cursive;
 }
-
-p{
-	font-family: 'Lora', serif;
+h1{
+	font-size: 60px;
+	color: #A62E12;
+	text-transform: uppercase;
+}
+h2{
+	color: #A77F4A;
 }
