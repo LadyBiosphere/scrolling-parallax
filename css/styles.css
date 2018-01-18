@@ -7,11 +7,11 @@ body{
 }
 h1, h2{
 	font-family: 'Germania One', cursive;
+  text-align: center;
 }
 h1{
-	font-size: 80px;
+	font-size: 60px;
 	color: #800000;
-  text-align: center;
 	text-transform: uppercase;
 }
 h2{
@@ -94,12 +94,33 @@ h2{
     -o-filter: blur(5px);
     -ms-filter: blur(5px);
   }
-
-  
-.content {
+.content-container{
   position: absolute;
   top: 600px;
   background: #000;
   width: 100%;
   min-height: 1500px;
+}
+.content {
+  width: 95%;
+  margin: 0 auto;
+  line-height: 35px;
+}
+hr{
+  border-color: #800000;
+}
+a{
+  text-decoration: none;
+  color: #800000;
+}
+
+/* Responsive stuff */
+@media (min-width: 600px) {
+  h1{
+    font-size: 80px;
+  }
+  .content {
+    width: 70%;
+    margin: 0 auto;
+  }
 }
