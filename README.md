@@ -1,9 +1,9 @@
 #Scrolling parallax effect
 ===================================
-###### Updated: Sunday the 14th of January 2018.
+###### Updated: Thursday the 18th of January 2018.
 
 ### Overview
-In this project, I'll be working on a parallax animation effect.
+In this project, I'll be working on a parallax animation effect. The project currently needs to be tidied up and optimised.
 
 ### Requirements
 To get the most out of this project, it is assumed that you already know how to do all of the following: 
