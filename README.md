@@ -3,7 +3,11 @@
 ###### Updated: Friday the 19th of January 2018.
 
 ### Overview
-In this project, I put together some text and images to create a parallax effect similar to the one seen on the Firewatch website. Although it looks and feels the part, I think it can be optimised and tidied up further. For the sake of simplicity, I focused on the JavaScript and didn't invest a lot of time with the CSS or imagery; as a consequence of this, the web page that I've put together is loosely responsive and the images tile horizontally.
+In this project, I put together some text and images to create a parallax effect similar to the one seen on the Firewatch website. 
+
+![Firewatch website](http://cloud-3.steamusercontent.com/ugc/397833649942025956/B5E944AC4358BA562E24CF270F032975712C669D/)
+
+Although it looks and feels the part, I think it can be optimised and tidied up further. For the sake of simplicity, I focused on the JavaScript and didn't invest a lot of time with the CSS or imagery; as a consequence of this, the web page that I've put together is loosely responsive and the images tile horizontally.
 
 Tip: It's a good idea to plan and finalise your design before working on your parallax webpage.
 
