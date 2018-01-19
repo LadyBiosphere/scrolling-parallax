@@ -40,11 +40,11 @@ ParallaxManager = (function() {
     } else if (typeof elements === 'string') {
       this.elements = document.querySelectorAll(elements);
       if (this.elements.length === 0) {
-        throw new Error("Parallax: No elements found");
+        throw new Error("Parallax: Oops! No elements found!");
       }
       this.elements = Array.prototype.slice.call(this.elements);
     } else {
-      throw new Error("Parallax: Element variable is not a querySelector string, Array, or NodeList");
+      throw new Error("Parallax: Yikes. Element variable is not a querySelector string, Array, or NodeList");
     }
     for (var i in this.elements) {
       this.parts.push(new ParallaxPart(this.elements[i]));
